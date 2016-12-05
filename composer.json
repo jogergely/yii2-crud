@@ -1,0 +1,21 @@
+{
+    "name": "h3tech/yii2-crud",
+    "description": "An Yii 2 CRUD generator",
+	"keywords": ["yii2", "CRUD", "h3tech"],
+    "type": "yii2-extension",
+    "require": {
+		"yiisoft/yii2": "*",
+        "h3tech/yii2-crud": "*",
+        "kartik-v/yii2-widget-datepicker": "1.3.3.0",
+        "kartik-v/yii2-date-range": "1.6.7.0",
+        "kartik-v/yii2-widget-fileinput": "1.0.3.0"
+    },
+    "license": "CC 3.0",
+    "authors": [
+        {
+            "name": "Gyula Szabó",
+            "email": "gt.szgyula@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
