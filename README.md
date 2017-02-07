@@ -1,4 +1,4 @@
-# yii2-crud >> README
+Markup :  # Heading 1 #
 
 Install
 
@@ -27,3 +27,7 @@ To install this extension you must:
     ];
 
 4): after you can use the crud generator from /gii page
+
+License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
