@@ -3,8 +3,9 @@
 ##Install
 
 To install this extension you must:
+
 1. open composer.json in your yii2 base folder, then write: 
-	````javascript
+	````php
 	"require": {
 		"h3tech/yii2-crud": "dev-master"
     },
