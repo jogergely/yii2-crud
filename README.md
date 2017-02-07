@@ -3,8 +3,8 @@
 ##Install
 
 To install this extension you must:
-1. open composer.json in your yii2 base folder, then write: 
- 	`"require": {
+1): open composer.json in your yii2 base folder, then write: 
+	`"require": {
 		"h3tech/yii2-crud": "dev-master"
     },
 	"repositories": [
@@ -14,9 +14,11 @@ To install this extension you must:
         }
     ]`
 
-2. Run composer update
 
-3. Open web.php in config folder and write:
+2. run composer update
+
+3. open web.php in config folder and write:
+>>>>>>> 40a8e552db8b209719f1a499920431a4219c5f7a
 	$config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
         'generators' => [
