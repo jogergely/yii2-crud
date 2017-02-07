@@ -3,8 +3,8 @@
 ##Install
 
 To install this extension you must:
-1): open composer.json in your yii2 base folder, then write: 
-	````json
+1. open composer.json in your yii2 base folder, then write: 
+	````javascript
 	"require": {
 		"h3tech/yii2-crud": "dev-master"
     },
@@ -15,7 +15,6 @@ To install this extension you must:
         }
     ]
 	````
-
 
 2. run composer update
 
@@ -35,7 +34,8 @@ To install this extension you must:
 
 ##Author
 
-Szabó Gyula
+**name:** Szabó Gyula
+**email:** gt.szgyula@gmail.com
 
 ##License
 
