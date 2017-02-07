@@ -4,7 +4,8 @@
 
 To install this extension you must:
 1): open composer.json in your yii2 base folder, then write: 
-	`"require": {
+	````json
+	"require": {
 		"h3tech/yii2-crud": "dev-master"
     },
 	"repositories": [
@@ -12,13 +13,14 @@ To install this extension you must:
             "type": "vcs",
             "url":  "https://github.com/jogergely/yii2-crud.git"
         }
-    ]`
+    ]
+	````
 
 
 2. run composer update
 
 3. open web.php in config folder and write:
->>>>>>> 40a8e552db8b209719f1a499920431a4219c5f7a
+	````php
 	$config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
         'generators' => [
@@ -27,6 +29,7 @@ To install this extension you must:
             ]
         ]
     ];
+	````
 
 4. You can use the crud generator from /gii page.
 
