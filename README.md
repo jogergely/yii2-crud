@@ -45,9 +45,9 @@ After the generation you should delete the Controller and the generated views (v
 4. 
 You must create a Controller which is inherited from the AbstractCRUDController
 After you must add inside the Controller.php:
-* the model's class
-* the search model's class
-* viewRules() function definition
+ * the model's class
+ * the search model's class
+ * viewRules() function definition
 	````php
 <?php
  
